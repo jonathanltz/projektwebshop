@@ -2,7 +2,7 @@
 require_once '2/header.php';
 ?>
 
-Warenkorb
+Warenkorb 23213
 
 <?php
 require_once '2/footer.php';
