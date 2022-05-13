@@ -30,7 +30,7 @@ require_once 'database.php';
                        <li><a href='register.php'>Registrieren</a></li>
                     </ul>
                 </li>
-                <li><a href='cart.php'>Warenkorb</a></li>
+                <li><a href='cart.php'>Warenkorb </a></li>
             </ul>
 
         </nav>
