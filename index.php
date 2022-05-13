@@ -2,7 +2,7 @@
 require_once '2/header.php';
 ?>
 
-Startseit e   
+Startseite Jonathan
 
 <?php
 require_once '2/footer.php';
