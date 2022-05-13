@@ -2,7 +2,8 @@
 require_once '2/header.php';
 ?>
 
-Startseite
+Startseite Test
+
 
 <?php
 require_once '2/footer.php';
