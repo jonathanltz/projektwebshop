@@ -21,7 +21,7 @@ require_once 'database.php';
                 <li><a class='dropdown-arrow' href='shop.php'>Produkte</a>
                     <ul class='sub-menus'>
                         <li><a href='http://'>Klein</a></li>
-                        <li><a href='http://'>Groß</a></li>
+                        <li><a href='http://'>Groï¿½</a></li>
                     </ul>
                 </li>
                 <li><a class='dropdown-arrow' href='http://'>Services</a>
