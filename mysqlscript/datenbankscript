@@ -1,0 +1,18 @@
+DROP DATABASE IF EXISTS `Artikel`;
+CREATE DATABASE IF NOT EXISTS `Artikel`;
+USE `Artikel`;
+DROP TABLE IF EXISTS `Artikelliste`;
+
+CREATE TABLE `Artikelliste` (
+  `ANr` INTEGER NOT NULL, 
+  `ArtName` VARCHAR(50),
+  `ArtBesch` Varchar(6000),
+  PRIMARY KEY (`ANr`)
+) ENGINE=myisam DEFAULT CHARSET=utf8;
+
+LOAD DATA INFILE 'C:test.csv' 
+INTO TABLE Artikel.Artikelliste
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
