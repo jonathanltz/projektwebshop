@@ -4,7 +4,5 @@ function updatemenu() {
     document.getElementById('menu').style.borderBottomLeftRadius = '0';
   }else{
     document.getElementById('menu').style.borderRadius = '15px';
-
-    
   }
 }

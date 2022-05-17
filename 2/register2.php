@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
                 }
             }
         }
-    }//wqeq
+    }
 
     mysqli_stmt_close($stmt);
     mysqli_close($con);
